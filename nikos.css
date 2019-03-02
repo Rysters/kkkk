@@ -1,0 +1,63 @@
+{
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+* {
+  box-sizing: border-box;
+}
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 50%;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #F47E16   ;
+}
+
+.navbar a.active {
+  background-color:#F42716   ;
+}
+
+.foto {
+  background-image: url("vvv.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  width: 100%;
+}
+.column{
+  background-color: #5D5D5C;
+  
+   width: 33,3%;
+  padding: 15px;
+  text-align: center;
+  color: white;
+
+}
+
+.footer{
+  width: 100%;
+ height: 45px;
+ background-color: gray;
+ bottom: 0;
+
+}
+
+
+
+

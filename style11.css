@@ -1,0 +1,99 @@
+{
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Lato";
+	background-color: white;
+	color: black;
+	margin:0;
+   padding:0;
+   height:100%;
+}
+
+.navbar {
+	width: 100%;
+	background-color: #555;
+	overflow: auto;
+}
+
+.navbar a {
+	float: left;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	width: 25%;
+	text-align: center;
+}
+
+.navbar a:hover {
+	background-color: #F47E16   ;
+}
+
+.navbar a.active {
+	background-color:#F42716   ;
+}
+
+.column{
+	background-color: #5D5D5C;
+	float: left;
+	 width: 33%;
+	padding: 15px;
+	text-align: center;
+	color: white;
+
+}
+
+
+@media only screen and (max-width: 500px){
+	.column{
+		width: 100%
+	}
+}
+@media only screen and (max-width: 500px) {
+	.navbar a {
+		float: none;
+	
+		width: 100%;
+	
+	}
+	
+
+}
+
+
+
+.foto {
+	background-image: url("chervona.jpg");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.footer{
+  width: 100%;
+ height: 45px;
+ background-color: gray;
+
+}
+@media only screen and (max-width: 500px) {
+  .footer  {
+    float: none;
+    width: 100%;
+
+  }
+}
+table{
+	width: 100%;
+}
+
+}
+	
